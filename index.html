@@ -3,124 +3,263 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ayesha portfolio landing page with animations and clean structure." />
-    <title>Ayesha | Creative Developer</title>
+    <meta
+      name="description"
+      content="Ayesha Aslam is a frontend developer focused on creating polished, responsive, and user-centered web experiences."
+    />
+    <title>Ayesha Aslam | Frontend Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="topbar">
-        <div class="brand">A</div>
-        <nav class="nav">
-          <a href="#home">Home</a>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="brand" aria-label="Ayesha Aslam home">A</a>
+        <nav class="nav-links" aria-label="Main navigation">
           <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
-      </header>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </div>
+    </header>
 
-      <main>
-        <section class="hero" id="home">
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow">Frontend Developer in Training</p>
-            <h1>Building joyful digital experiences with clean code and soft magic.</h1>
+            <p class="eyebrow">Frontend Developer • UI Enthusiast</p>
+            <h1>
+              I design interfaces that feel polished,
+              <span>human, and memorable.</span>
+            </h1>
             <p class="lead">
-              I design and build polished, responsive interfaces that combine creativity,
-              usability, and performance.
+              I’m Ayesha Aslam, a creative frontend developer focused on building
+              responsive, thoughtful, and visually refined experiences for the web.
             </p>
+
             <div class="cta-row">
-              <a class="btn btn-primary" href="#projects">View Work</a>
-              <a class="btn btn-secondary" href="#contact">Let’s Connect</a>
+              <a href="#projects" class="button button-primary">View Projects</a>
+              <a href="#contact" class="button button-secondary">Let’s Talk</a>
             </div>
-            <ul class="mini-stats">
-              <li><strong>2+</strong> Years Exploring</li>
-              <li><strong>10+</strong> Creative Concepts</li>
-              <li><strong>100%</strong> Curious</li>
+
+            <ul class="quick-stats" aria-label="Personal metrics">
+              <li>
+                <strong>2+</strong>
+                <span>Years Learning</span>
+              </li>
+              <li>
+                <strong>10+</strong>
+                <span>Creative Concepts</span>
+              </li>
+              <li>
+                <strong>100%</strong>
+                <span>Curiosity</span>
+              </li>
             </ul>
           </div>
 
-          <div class="hero-visual reveal">
-            <div class="orb orb-one"></div>
-            <div class="orb orb-two"></div>
-            <div class="card card-main">
-              <span class="tag">UI / UX</span>
-              <h3>Creative Interface</h3>
-              <div class="bars">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+          <div class="hero-visual reveal" aria-label="Decorative profile panel">
+            <div class="visual-card main-card">
+              <div class="status-pill">Available for work</div>
+              <div class="mini-avatar">
+                <div class="avatar-ring"></div>
+                <div class="avatar-core">A</div>
+              </div>
+              <div class="card-content">
+                <small>Current focus</small>
+                <h3>Responsive Design</h3>
               </div>
             </div>
-            <div class="card card-mini">
-              <small>Focus</small>
-              <strong>Responsive Design</strong>
+
+            <div class="floating-badge badge-one">
+              <span>UI/UX</span>
+            </div>
+            <div class="floating-badge badge-two">
+              <span>Clean Code</span>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="about reveal" id="about">
-          <div class="section-heading">
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
             <p class="eyebrow">About Me</p>
-            <h2>Creativity meets structure.</h2>
+            <h2>Creativity grounded in clarity.</h2>
           </div>
+
           <div class="about-grid">
-            <div class="about-card">
+            <div class="about-copy reveal">
               <p>
-                I enjoy turning ideas into interfaces that feel intuitive, warm, and engaging.
-                My work blends visual storytelling, responsive layouts, and thoughtful user experience.
+                I enjoy transforming ideas into interfaces that are elegant, intuitive,
+                and engaging. My work sits at the intersection of design thinking and
+                frontend craftsmanship.
+              </p>
+              <p>
+                I focus on user-centered experiences, refined visuals, and responsive
+                layouts that help brands communicate clearly while feeling premium.
               </p>
             </div>
-            <div class="about-card highlight">
-              <p>
-                I’m learning modern front-end tools while refining the balance between beauty and functionality.
-              </p>
+
+            <div class="info-panel reveal">
+              <div class="info-block">
+                <span>Role</span>
+                <strong>Frontend Developer</strong>
+              </div>
+              <div class="info-block">
+                <span>Skills</span>
+                <strong>HTML • CSS • JavaScript</strong>
+              </div>
+              <div class="info-block">
+                <span>Interest</span>
+                <strong>UI Systems • UX • Motion</strong>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="projects reveal" id="projects">
-          <div class="section-heading">
+      <section class="section muted" id="services">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What I Do</p>
+            <h2>Designing digital experiences that work beautifully.</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card reveal">
+              <span class="service-icon">01</span>
+              <h3>Website Design</h3>
+              <p>
+                Clean, modern interfaces with thoughtful hierarchy and polished interactions.
+              </p>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-icon">02</span>
+              <h3>Responsive Layouts</h3>
+              <p>
+                Smart responsive design that adapts elegantly across devices and screen sizes.
+              </p>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-icon">03</span>
+              <h3>Frontend Development</h3>
+              <p>
+                Reusable structure, lightweight code, and a strong focus on polish and usability.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Growing through thoughtful practice.</h2>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span>Currently</span>
+                <h3>Frontend Learning & Portfolio Building</h3>
+                <p>
+                  Creating polished web interfaces and refining design fundamentals through real projects.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span>Focus</span>
+                <h3>UX & Visual Design Fundamentals</h3>
+                <p>
+                  Exploring layout systems, color harmony, typography, spacing, and interaction patterns.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span>Goal</span>
+                <h3>Transition into Professional Frontend Work</h3>
+                <p>
+                  Building a strong foundation to contribute to impactful digital products with confidence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
             <p class="eyebrow">Featured Work</p>
-            <h2>Design-driven concepts.</h2>
+            <h2>Selected concept work and interface experiments.</h2>
           </div>
 
-          <div class="project-grid">
-            <article class="project-card">
-              <div class="project-visual gradient-1"></div>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-visual visual-one"></div>
               <div class="project-body">
                 <h3>Portfolio Showcase</h3>
-                <p>Elegant landing page with soft gradients, motion, and polished typography.</p>
+                <p>
+                  A premium landing page concept built around soft gradients, motion, and strong visual rhythm.
+                </p>
               </div>
             </article>
 
-            <article class="project-card">
-              <div class="project-visual gradient-2"></div>
+            <article class="project-card reveal">
+              <div class="project-visual visual-two"></div>
               <div class="project-body">
-                <h3>Product UI</h3>
-                <p>Responsive interface concept focused on clarity, accessibility, and conversion.</p>
+                <h3>Product Interface</h3>
+                <p>
+                  A responsive dashboard-style concept emphasizing clarity, balance, and accessibility.
+                </p>
               </div>
             </article>
 
-            <article class="project-card">
-              <div class="project-visual gradient-3"></div>
+            <article class="project-card reveal">
+              <div class="project-visual visual-three"></div>
               <div class="project-body">
                 <h3>Brand Experience</h3>
-                <p>Visual direction that balances personality, usability, and visual rhythm.</p>
+                <p>
+                  A visual concept combining storytelling, elegance, and functional elegance for digital branding.
+                </p>
               </div>
             </article>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
 
-      <footer class="footer reveal" id="contact">
-        <p>Let’s build something beautiful together.</p>
-        <a href="mailto:hello@ayesha.dev">hello@ayesha.dev</a>
-      </footer>
-    </div>
+    <footer class="site-footer" id="contact">
+      <div class="container footer-inner reveal">
+        <div>
+          <p class="eyebrow">Let’s Connect</p>
+          <h2>Building something meaningful starts with a conversation.</h2>
+        </div>
+        <a href="mailto:hello@ayesha.dev" class="button button-primary">hello@ayesha.dev</a>
+      </div>
+    </footer>
 
     <script src="assets/js/main.js"></script>
   </body>
